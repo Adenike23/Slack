@@ -1,0 +1,45 @@
+body {
+    background-color: seashell;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+button{
+    all: unset;
+}
+.nav-btn button:nth-of-type(2) {
+    background-color: purple;
+    color: white;
+    padding: 7px 16px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color: black;
+}
+.logo h3{
+    font-size: 22px;
+}
