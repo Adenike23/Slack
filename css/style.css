@@ -27,19 +27,52 @@ ul{
     align-items: center;
     gap: 16px;
 }
-button{
+nav button{
     all: unset;
+}
+.nav-btn button:nth-of-type(1) {
+    font-weight: 1000;
 }
 .nav-btn button:nth-of-type(2) {
     background-color: purple;
     color: white;
     padding: 7px 16px;
     margin-left: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 1000;
+    color: seashell;
 }
 nav a{
     color: black;
 }
 .logo h3{
+    font-size: 30px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    padding: 16px;
+}
+div h2 {
+    font-size: 70px;
+}
+h4 {
     font-size: 22px;
+    font-weight: 100;
+    padding-top: 25px;
+}
+.btn1 {
+    background-color: purple;
+    color: white;
+    padding: 15px 22px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.btn2 {
+    padding: 15px 22px;
+    margin-top: 20px;
+    font-size: 16px;
 }
