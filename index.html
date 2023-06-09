@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -16,8 +17,9 @@
             <img src="/Images/Slack_icon_2019.svg.png" alt="logo image" width="42px">
             <h3>Slack</h3>
         </a>
-
+        <i class="ri-menu-line"></i>
         <ul>
+            <i class="ri-close-circle-line"></i>
             <li>
                 <a href="#">Why Slack?</a>
             </li>
@@ -39,12 +41,20 @@
     </nav>
     <main>
        <div>
-            <h2>Slack is where work<br> happens</h2>
+            <h2>Slack is where work happens</h2>
             <h4>With channels in slack, you and your team know where to go to ask questions, share updates and stay in the loop.</h4>
             <button class="btn1">TRY FOR FREE</button>
             <button class="btn2">CONTACT SALES</button>
        </div>
-       <img src="/Images/Slack_icon_2019.svg.png" alt="slack logo" width="550px">
+       <img src="/Images/Slack_icon_2019.svg.png" alt="slack logo" class="main-logo">
     </main>
+    <script>
+        document.querySelector(".ri-menu-line").addEventListener("click", function() {
+            document.querySelector("ul").style.right=0
+        })
+        document.querySelector(".ri-close-circle-line").addEventListener("click", function() {
+            document.querySelector("ul").style.right="-200px"
+        })
+    </script>
 </body>
 </html>
