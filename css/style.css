@@ -109,11 +109,11 @@ main div{
         margin: 20px;
     }
     .btn1{
-        padding: 10px 15px;
+        padding: 9px 12px;
         font-size: 14px;
     }
     .btn2{
-        padding: 10px 15px;
+        padding: 9px 11px;
         font-size: 14px;
     }
     div h2 {
@@ -148,15 +148,10 @@ main div{
         text-align: center;
         padding: 15px 40px;
         transition: .5s;
-        background-color: red;
     }
     .ri-menu-line, .ri-close-circle-line{
         display: block;
         font-size: 20px;
-    }
-    nav{
-        /* padding: 13px 25px;
-        margin: 0; */
     }
     nav h3{
         font-size: 12px;
