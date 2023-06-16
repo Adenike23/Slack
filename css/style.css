@@ -40,7 +40,7 @@ nav button{
     margin-left: 5px;
     border-radius: 10px;
     font-size: 1rem;
-    font-weight: 1000;
+    font-weight: 700;
     color: seashell;
 }
 nav a{
@@ -99,6 +99,12 @@ main div{
     }
 }
 @media screen and (max-width: 768px) {
+    .logo{
+        gap: 8px;
+    }
+    nav{
+        padding: 13px 35px;
+    }
     main{
         margin: 20px;
     }
@@ -139,17 +145,18 @@ main div{
         top: 0;
         right: -200px;
         height: 100vh;
-        width: 40%;
         text-align: center;
-        padding: 15px;
+        padding: 15px 40px;
         transition: .5s;
+        background-color: red;
     }
     .ri-menu-line, .ri-close-circle-line{
         display: block;
         font-size: 20px;
     }
     nav{
-        padding: 13px 25px
+        /* padding: 13px 25px;
+        margin: 0; */
     }
     nav h3{
         font-size: 12px;
