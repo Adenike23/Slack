@@ -100,7 +100,7 @@ main div{
 }
 @media screen and (max-width: 768px) {
     .logo{
-        gap: 8px;
+        gap: 10px;
     }
     nav{
         padding: 13px 35px;
